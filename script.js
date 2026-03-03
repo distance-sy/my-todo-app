@@ -10,7 +10,9 @@ document.getElementById('add-btn').addEventListener('click', function() {
         delBtn.textContent = '删除';
         delBtn.style.marginLeft = '10px';
         delBtn.onclick = function() {
-            li.remove();
+            if (confirm('确定要删除吗？')) {
+                li.remove();
+            }
         };
         li.appendChild(delBtn);
 
