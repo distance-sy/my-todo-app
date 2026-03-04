@@ -5,7 +5,6 @@ document.getElementById('add-btn').addEventListener('click', function() {
         const li = document.createElement('li');
         li.textContent = text;
 
-        // 添加删除按钮
         const delBtn = document.createElement('button');
         delBtn.textContent = '删除';
         delBtn.style.marginLeft = '10px';
