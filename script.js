@@ -23,3 +23,4 @@ document.getElementById('add-btn').addEventListener('click', function() {
         input.value = '';
     }
 });// merge-demo:增加一个辅助函数
+// rebase-demo:优化事件监听
