@@ -22,4 +22,4 @@ document.getElementById('add-btn').addEventListener('click', function() {
         document.getElementById('todo-list').appendChild(li);
         input.value = '';
     }
-});
+});// merge-demo:增加一个辅助函数
